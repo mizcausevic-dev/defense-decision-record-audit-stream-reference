@@ -1,0 +1,16 @@
+{
+  "name": "defense-decision-record-audit-stream-reference",
+  "version": "0.1.0",
+  "description": "AGPL-3.0 reference implementation of the DefenseTech audit-stream + 3-axis vault contract. Runs the Stratos Aerospace × VendorD GuardianAI 3.x canonical trajectory end-to-end against a mock CUI vault, satisfying all 3 invariants simultaneously (CUI distribution-statement on Specified+, ITAR us-person verification, DFARS 72-hour wall-clock).",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node src/cli.mjs",
+    "verify": "node src/cli.mjs && node src/verifier-cli.mjs"
+  },
+  "license": "AGPL-3.0-only",
+  "homepage": "https://github.com/mizcausevic-dev/defense-decision-record-audit-stream-reference",
+  "repository": { "type": "git", "url": "git+https://github.com/mizcausevic-dev/defense-decision-record-audit-stream-reference.git" },
+  "keywords": ["defensetech", "audit-stream", "reference-implementation", "cui", "itar", "dfars", "cmmc", "kinetic-gain-protocol-suite"]
+}
